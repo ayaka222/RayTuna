@@ -23,9 +23,9 @@ services:
     container_name: db-host-raytuna
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: database
-      MYSQL_USER: docker
-      MYSQL_PASSWORD: docker
+      MYSQL_DATABASE: raytuna_db
+      MYSQL_USER: raytuna_db_user
+      MYSQL_PASSWORD: raytuna_db_password
       TZ: 'Asia/Tokyo'
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     volumes:
