@@ -3,7 +3,7 @@
 <head>
   <title>RayTuna</title>
     <!-- Bootstrap CSS -->
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -18,7 +18,7 @@
           <div class="navbar navbar-dark" style="background-color:#FF564C">
             <div class="container d-flex justify-content-between">
               <a href="home.html" class="navbar-brand d-flex align-items-center">
-              <img class="logo" src="{{ asset('image/logo.png') }}" alt="logo">
+              <img class="logo" src="{{ asset('image/logo.png') }}" alt="logo" width="120">
               </a>
             </div>
           </div>
@@ -55,7 +55,7 @@
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="../picture/sample1.jpg" alt="Card image cap">
+                <img class="card-img-top" img src="{{ asset('image/sample1.jpg') }}" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">【渋谷】クリスマスパーティー！！！</p>
                   <div class="d-flex justify-content-between align-items-center">
