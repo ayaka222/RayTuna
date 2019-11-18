@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>RayTuna</title>
+  <title>検索結果一覧</title>
     <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -17,41 +17,16 @@
           <div class="navbar navbar-dark" style="background-color:#FF564C">
             <div class="container d-flex justify-content-between">
               <a href="home.html" class="navbar-brand d-flex align-items-center">
-              <img class="logo" src="{{ asset('image/logo.png') }}" alt="logo">
+                <img src="../picture/logo.png" width="200">
               </a>
             </div>
           </div>
         </header>
 
-
-    <main role="main">
-
-      <section class="jumbotron text-center">
-        <div class="container">
-          <h1 class="jumbotron-heading">イベントを探す</h1>
-          <p class="lead text-muted">近くの地域や犬種などからイベントを探してみよう！</p>
-          <p>
-            <a href="event-list.html" class="btn btn-primary my-2">地域から探す</a>
-            <a href="event-list.html" class="btn btn-secondary my-2">日時から探す</a>
-            <a href="event-list.html" class="btn btn-success my-2">犬種から探す</a>
-          </p>
-          <p class="lead text-muted">キーワードから探してみよう！</p>
-          <p>
-            <div class="input-group">
-              <input type="text" class="form-control">
-              <span class="input-group-btn">
-                <a href="event-list.html"><button class="btn btn-warning" type="submit">検索</button></a>
-              </span>
-            </div>
-          </p>
-        </div>
-      </section>
-
-      <div class="album py-5 bg-light">
-        <div class="container">
-          <h1 class="jumbotron-heading">注目イベント</h1>
-
-          <div class="row">
+    <div class="album py-5 bg-light">
+            <div class="container">
+              <h1 class="jumbotron-heading">イベント一覧</h1>
+    <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" img src="../picture/sample1.jpg" alt="Card image cap">
@@ -158,7 +133,7 @@
                   </div>
                 </div>
               </div>
-
+              
             </nav>
   </body>
 </html>

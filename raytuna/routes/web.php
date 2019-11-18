@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('top', 'TopController@index');
+Route::get('mypage', 'MypageController@index');
+Route::get('event', 'EventController@index');
+Route::get('list', 'ListController@index');
