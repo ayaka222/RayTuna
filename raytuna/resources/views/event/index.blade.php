@@ -17,7 +17,7 @@
           <div class="navbar navbar-dark" style="background-color:#FF564C">
             <div class="container d-flex justify-content-between">
               <a href="home.html" class="navbar-brand d-flex align-items-center">
-                <img src="../picture/logo.png" width="200">
+              <img class="logo" src="{{ asset('image/logo.png') }}" alt="logo" width="120">
               </a>
             </div>
           </div>
@@ -34,7 +34,7 @@
       </div>
     </br>
       <div class="col-md-5 order-md-1">
-        <img src="../picture/sample1.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+        <img src="{{ asset('image/sample1.jpg') }}" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
       </div>
     </div>  
     </br>
@@ -97,26 +97,26 @@
 
   <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
 
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <a href="home.html"><img class="nav-link" img src="../picture/home-icon.png" ></a>
-          </div>
-          <div class="col-sm">
-            <img class="nav-link" img src="../picture/serch-icon.png">
-          </div>
-          <div class="col-sm">
-            <img class="nav-link" img src="../picture/add-icon.png">
-          </div>
-          <div class="col-sm">
-            <a href="mypage.html"><img class="nav-link" img src="../picture/mypage-icon.png"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  </nav>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm">
+                      <a href="home.html"><img class="nav-link" img src="{{ asset('image/home-icon.png') }}"></a>
+                    </div>
+                    <div class="col-sm">
+                      <img class="nav-link" img src="{{ asset('image/search-icon.png') }}"></a>
+                    </div>
+                    <div class="col-sm">
+                      <img class="nav-link" img src="{{ asset('image/add-icon.png') }}"></a>
+                    </div>
+                    <div class="col-sm">
+                      <a href="mypage.html"><img class="nav-link" img src="{{ asset('image/mypage-icon.png') }}"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </nav>
 
 
     </body>

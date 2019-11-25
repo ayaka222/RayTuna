@@ -17,7 +17,7 @@
       <div class="navbar navbar-dark" style="background-color:#FF564C">
         <div class="container d-flex justify-content-between">
           <a href="home.html" class="navbar-brand d-flex align-items-center">
-            <img src="../picture/logo.png" width="200">
+          <img class="logo" src="{{ asset('image/logo.png') }}" alt="logo" width="120">
           </a>
         </div>
       </div>
@@ -41,7 +41,7 @@
       </div>
     </br>
       <div class="col-md-5 order-md-1">
-        <img src="../picture/mypage-sample1.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+        <img src="{{ asset('image/mypage-sample1.jpg') }}" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
       </div>
     </div> 
 
@@ -51,7 +51,7 @@
     <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="../picture/sample1.jpg" alt="Card image cap">
+                <img class="card-img-top" img src="{{ asset('image/sample1.jpg') }}" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">【渋谷】クリスマスパーティー！！！</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -65,7 +65,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="../picture/sample2.jpg" alt="Card image cap">
+                <img class="card-img-top" img src="{{ asset('image/sample2.jpg') }}" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">第１回　ダルメシアンの会</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -86,7 +86,7 @@
     <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="../picture/sample3.jpg" alt="Card image cap">
+                <img class="card-img-top" img src="{{ asset('image/sample3.jpg') }}" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">みんなで楽しくワイワイ( ´∀｀)大型犬も可！！</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -100,7 +100,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="../picture/sample5.jpg" alt="Card image cap">
+                <img class="card-img-top" img src="{{ asset('image/sample5.jpg') }}" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">【好評につき第四段！！】楽しいしつけ教室</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -117,26 +117,26 @@
 
         <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
 
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm">
-                  <a href="home.html"><img class="nav-link" img src="../picture/home-icon.png" ></a>
-                </div>
-                <div class="col-sm">
-                  <img class="nav-link" img src="../picture/serch-icon.png">
-                </div>
-                <div class="col-sm">
-                  <img class="nav-link" img src="../picture/add-icon.png">
-                </div>
-                <div class="col-sm">
-                  <a href="mypage.html"><img class="nav-link" img src="../picture/mypage-icon.png"></a>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm">
+                      <a href="home.html"><img class="nav-link" img src="{{ asset('image/home-icon.png') }}"></a>
+                    </div>
+                    <div class="col-sm">
+                      <img class="nav-link" img src="{{ asset('image/search-icon.png') }}"></a>
+                    </div>
+                    <div class="col-sm">
+                      <img class="nav-link" img src="{{ asset('image/add-icon.png') }}"></a>
+                    </div>
+                    <div class="col-sm">
+                      <a href="mypage.html"><img class="nav-link" img src="{{ asset('image/mypage-icon.png') }}"></a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          
-        </nav>
+
+            </nav>
 
   </body>
 </html>

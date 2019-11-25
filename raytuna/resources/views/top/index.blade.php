@@ -60,7 +60,7 @@
                   <p class="card-text">【渋谷】クリスマスパーティー！！！</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a href="event-sample1.html"><button type="button" class="btn btn-sm btn-outline-secondary">詳細をみる</button></a>
+                      <a href="/event"><button type="button" class="btn btn-sm btn-outline-secondary">詳細をみる</button></a>
                     </div>
                     <small class="text-muted">9 mins</small>
                   </div>
@@ -69,7 +69,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="../picture/sample2.jpg" alt="Card image cap">
+                <img class="card-img-top" img src="{{ asset('image/sample2.jpg') }}" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">第１回　ダルメシアンの会</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -83,7 +83,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="../picture/sample3.jpg" alt="Card image cap">
+                <img class="card-img-top" img src="{{ asset('image/sample3.jpg') }}" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">みんなで楽しくワイワイ( ´∀｀)大型犬も可！！</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -97,7 +97,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="../picture/sample4.jpg" alt="Card image cap">
+                <img class="card-img-top" img src="{{ asset('image/sample4.jpg') }}" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">愛犬の洋服作り体験しませんか？小型犬のみ</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -111,7 +111,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="../picture/sample5.jpg" alt="Card image cap">
+                <img class="card-img-top" img src="{{ asset('image/sample5.jpg') }}" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">【好評につき第四段！！】楽しいしつけ教室</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -125,7 +125,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" img src="../picture/sample6.jpg" alt="Card image cap">
+                <img class="card-img-top" img src="{{ asset('image/sample6.jpg') }}" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">トリミングモデル犬を大募集〜♪</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -145,16 +145,16 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-sm">
-                      <a href="home.html"><img class="nav-link" img src="../picture/home-icon.png" ></a>
+                      <a href="/home"><img class="nav-link" img src="{{ asset('image/home-icon.png') }}"></a>
                     </div>
                     <div class="col-sm">
-                      <img class="nav-link" img src="../picture/serch-icon.png">
+                      <img class="nav-link" img src="{{ asset('image/search-icon.png') }}"></a>
                     </div>
                     <div class="col-sm">
-                      <img class="nav-link" img src="../picture/add-icon.png">
+                      <img class="nav-link" img src="{{ asset('image/add-icon.png') }}"></a>
                     </div>
                     <div class="col-sm">
-                      <a href="mypage.html"><img class="nav-link" img src="../picture/mypage-icon.png"></a>
+                      <a href="/mypage"><img class="nav-link" img src="{{ asset('image/mypage-icon.png') }}"></a>
                     </div>
                   </div>
                 </div>
