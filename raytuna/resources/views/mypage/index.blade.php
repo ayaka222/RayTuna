@@ -23,11 +23,31 @@
       </div>
     </header>
 
+    <table>
+  <tr>
+    <th>ID</th>
+    <th>name</th>
+    <th>email</th>
+    <th>gender</th>
+  </tr>
+  @foreach ($users as $users)
+  <tr>
+    <td>{{$users->id}}</td>
+    <td>{{$users->name}}</td>
+    <td>{{$users->email}}</td>
+    <td>{{$users->gender}}</td>
+  </tr>
+  @endforeach
+</table>
 
     <hr class="featurette-divider">
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Hanako Yamada</h2>
+
+       
+
+
       </br>
         <p>【ペット情報】</p>
         <p>名前：ポチ</p>
